@@ -1,0 +1,56 @@
+.categories {
+    padding: 100px 0;
+    background-color: #faf8f4;
+}
+
+.sectionHeader {
+    margin-bottom: 45px;
+}
+
+.sectionHeader p {
+    margin: 0 0 10px;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: #9a8b7b;
+}
+
+.sectionHeader h2 {
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 48px;
+    font-weight: 500;
+    color: #3e352c;
+}
+
+.categoriesGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+}
+
+.categoryCard {
+    min-height: 180px;
+    padding: 25px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    background-color: #eee7dd;
+    color: #3e352c;
+    text-decoration: none;
+
+    transition: 0.3s ease;
+}
+
+.categoryCard:hover {
+    background-color: #e4dbcf;
+}
+
+.categoryCard span:first-child {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 27px;
+}
+
+.categoryArrow {
+    font-size: 20px;
+}
